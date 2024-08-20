@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+body { 
+    margin: 0; 
+    font-family: 'Playfair Display', serif; 
+    background-color: #f3f3f3; 
+    color: #333; 
+}
+
+.header { 
+    background-color: #ffffff; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+.header h1 { 
+    margin: 0; 
+    font-size: 36px; 
+    color: #333; 
+}
+
+.nav { 
+    display: flex; 
+    justify-content: center; 
+    background-color: #333; 
+}
+
+.nav a { 
+    padding: 14px 20px; 
+    text-decoration: none; 
+    color: white; 
+    font-family: 'Merriweather', serif; 
+    font-weight: bold; /* Bold */
+}
+
+.nav a:hover { 
+    background-color: #575757; 
+}
+
+.banner { 
+    position: relative; 
+    text-align: center; 
+    color: white; 
+    margin-bottom: 40px; 
+}
+
+.banner img { 
+    width: 100%; 
+    height: 500px; 
+    opacity: 0.7; 
+}
+
+.banner .text { 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
+.banner h2 { 
+    font-size: 50px; 
+    color: black;
+}
+
+.banner h1 { 
+    font-size: 50px; 
+}
+
+.content-section { 
+    display: flex; 
+    justify-content: space-around; 
+    padding: 20px; 
+}
+
+.content-box { 
+    background-color: white; 
+    width: 20%; 
+    height: 100px; /* Atur tinggi kotak */
+    box-shadow: 0px 0px 10px 0px #aaa; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+
+.content-box h3 { 
+    font-size: 24px; 
+    color: #888; 
+}
+
+.content-box h4 { 
+    font-size: 20px; 
+    color: #333; 
+}
+
+.content-box h1 { 
+    font-size: 30px; 
+    color: #333; 
+    margin: 0;
+}
+
+.container { 
+    display: flex; 
+    justify-content: center; 
+    padding: 40px 0; 
+}
+
+.box { 
+    display: flex; 
+    align-items: center; 
+    background-color: white; 
+    box-shadow: 0px 0px 10px 0px #aaa; 
+    width: 80%; 
+    padding: 20px; 
+}
+
+.box img { 
+    width: 35%; 
+    height: 500px;              
+}
+
+.box .content { 
+    padding: 20px; 
+}
+
+.box h2 { 
+    font-size: 30px; 
+    color: #333; 
+}
+
+.btn { 
+    display: inline-block; 
+    padding: 10px 20px; 
+    color: white; 
+    background-color: #333; 
+    text-decoration: none; 
+}
+
+.btn:hover { 
+    background-color: #575757; 
+}
+
+.review-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    margin: 40px 0;
+}
+
+.review-text {
+    width: 50%;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.review-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    font-family: 'Playfair Display', serif;
+}
+
+.review-text h2 {
+    font-size: 36px;
+    color: #333;
+    margin: 20px 0;
+    font-family: 'Playfair Display', serif;
+}
+
+.review-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.review-text .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #333;
+    border: 2px solid #333;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.review-text .btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.review-image {
+    width: 35%;
+}
+
+.review-image img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Review Section Styles */
+.top-reviewer {
+    text-align: center;
+    padding: 40px;
+    position: relative;
+}
+
+.top-reviewer h2 {
+    font-size: 48px;
+    color: #dd9db1;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.add-review-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-decoration: none;
+}
+
+.add-review-btn {
+    background-color: #dd9db1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.review-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.product-image {
+    text-align: center;
+    width: 40%;
+}
+
+.product-image img {
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.product-image p {
+    font-size: 14px;
+    color: #999;
+    margin: 5px 0;
+}
+
+.product-image h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 5px 0;
+}
+
+.review-details {
+    width: 60%;
+    text-align: left;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.user-profile img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+}
+
+.user-info {
+    font-size: 14px;
+}
+
+.user-info h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+}
+
+.user-review p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.read-more {
+    color: #dd9db1;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.review-meta {
+    font-size: 14px;
+    color: #999;
+}
+
+/* Style untuk bagian Add Review */
+.add-review-section {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+.add-review-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #555;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.submit-review-btn {
+    background-color: #dd9db1;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+}
+
+.submit-review-btn:hover {
+    background-color: #c16d8d;
+}
